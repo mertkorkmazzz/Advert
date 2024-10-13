@@ -1,0 +1,15 @@
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\bin\Debug\net8.0\Advert.Entity.deps.json
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\bin\Debug\net8.0\Advert.Entity.dll
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\bin\Debug\net8.0\Advert.Entity.pdb
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\bin\Debug\net8.0\Advert.Core.dll
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\bin\Debug\net8.0\Advert.Core.pdb
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\Advert.Entity.csproj.AssemblyReference.cache
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\Advert.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\Advert.Entity.AssemblyInfoInputs.cache
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\Advert.Entity.AssemblyInfo.cs
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\Advert.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\Advert.E.2160EBAE.Up2Date
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\Advert.Entity.dll
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\refint\Advert.Entity.dll
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\Advert.Entity.pdb
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Entity\obj\Debug\net8.0\ref\Advert.Entity.dll

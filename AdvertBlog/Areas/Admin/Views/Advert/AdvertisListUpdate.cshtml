@@ -1,0 +1,54 @@
+﻿@model Advert.Entity.DTOs.AdvertsDTOs.AdvertListDto
+
+<div class="row">
+    <!-- Using the row without justify-content-start to ensure left margin -->
+    <div class="col-12 col-md-10 offset-md-2">
+        <!-- Added offset-md-2 for left spacing -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">İlan Listesi</h3>
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 150px;">
+                        <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-default">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body table-responsive p-0" style="max-height: 250px;">
+                <table class="table table-sm table-head-fixed text-nowrap" style="width: 100%; margin-right: 0;">
+                    <thead>
+                        <tr>
+                            <th>Başlık</th>
+                            <th>Kategori</th>
+                            <th>Fiyat</th>
+                            <th>İşlemler</th> <!-- İşlem sütunu eklendi -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var advert in Model.Adverts)
+                        {
+                            <tr>
+                                <td>@advert.Description</td>
+                                <td>@advert.Category.Name</td>
+                                <td>@advert.Price</td>
+                                <td>
+                                    <!-- Güncelleme ve Silme butonları eklendi -->
+                                    <a href="@Url.Action("Update", "Advert", new { id = advert.Id })" class="btn btn-warning btn-sm">
+                                        <i class="fas fa-edit"></i> Güncelle
+                                    </a>
+                                    @* <a href="@Url.Action("Delete", "Advert", new { id = advert.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Bu ilanı silmek istediğinizden emin misiniz?');">
+                                <i class="fas fa-trash"></i> Sil
+                                </a> *@
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

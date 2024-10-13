@@ -1,0 +1,32 @@
+﻿@using Advert.Entity.DTOs.AdvertsDTOs
+@model AdvertListDto
+
+<h2>Advert List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Address</th>
+            <th>Created By</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var advert in Model.Adverts)
+        {
+            <tr>
+                <td>@advert.Description</td>
+                <td>@advert.Price</td>
+                <td>@advert.Category.Name</td>
+                <td>@advert.Address</td>
+                <td>@advert.User.Email</td>
+                <td>
+                    <a asp-action="Detail" asp-route-id="@advert.Id" class="btn btn-info"> Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

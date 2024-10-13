@@ -1,0 +1,11 @@
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\bin\Debug\net8.0\Advert.Core.deps.json
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\bin\Debug\net8.0\Advert.Core.dll
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\bin\Debug\net8.0\Advert.Core.pdb
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\obj\Debug\net8.0\Advert.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\obj\Debug\net8.0\Advert.Core.AssemblyInfoInputs.cache
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\obj\Debug\net8.0\Advert.Core.AssemblyInfo.cs
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\obj\Debug\net8.0\Advert.Core.csproj.CoreCompileInputs.cache
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\obj\Debug\net8.0\Advert.Core.dll
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\obj\Debug\net8.0\refint\Advert.Core.dll
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\obj\Debug\net8.0\Advert.Core.pdb
+C:\Users\Mert\Desktop\HomeProjeler\AdvertBlog\Advert.Core\obj\Debug\net8.0\ref\Advert.Core.dll

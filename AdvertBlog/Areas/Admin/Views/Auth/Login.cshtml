@@ -1,0 +1,79 @@
+﻿@using Advert.Entity.DTOs.UserDTOs
+@model UserLoginDto
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AdminLTE 3 | Log in</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/AdminTemplate/plugins/fontawesome-free/css/all.min.css" asp-append-version="true">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="~/AdminTemplate/plugins/icheck-bootstrap/icheck-bootstrap.min.css" asp-append-version="true">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/AdminTemplate/dist/css/adminlte.min.css" asp-append-version="true">
+</head>
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <div class="login-logo">
+            <a href="/"><b>Admin</b>LTE</a>
+        </div>
+        <!-- /.login-logo -->
+        <div class="card">
+            <div class="card-body login-card-body">
+                <p class="login-box-msg">Sign in to start your session</p>
+
+                <form asp-controller="Auth" asp-action="Login" id="formAuthentication" class="mb-3" method="post">
+                    <div asp-validation-summary="All"></div>
+                    <div class="mb-3">
+                        <label asp-for="Email" for="email" class="form-label">Email Adresi</label>
+                        <input asp-for="Email" type="email" class="form-control" id="email" name="email" placeholder="Lütfen mail adresinizi giriniz." autofocus>
+                        <span asp-validation-for="Email"></span>
+                    </div>
+                    <div class="mb-3 form-password-toggle">
+                        <div class="d-flex justify-content-between">
+                            <label class="form-label" for="password">Parola</label>
+                            <a href="auth-forgot-password-basic.html">
+                                <small>Forgot Password?</small>
+                            </a>
+                        </div>
+                        <div class="input-group input-group-merge">
+                            <input asp-for="Password" type="password" id="password" class="form-control" name="password" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="password" />
+                            <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                            <span asp-validation-for="Email"></span>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" asp-for="RememberMe" type="checkbox" id="remember-me">
+                            <label class="form-check-label" asp-for="RememberMe" for="remember-me">
+                                Beni Hatırla
+                            </label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-primary d-grid w-100" type="submit">Sign in</button>
+                    </div>
+                </form>
+
+            </div>
+            <!-- /.login-card-body -->
+        </div>
+    </div>
+    <!-- /.login-box -->
+    <!-- jQuery -->
+    <script src="~/AdminTemplate/plugins/jquery/jquery.min.js" asp-append-version="true"></script>
+    <!-- Bootstrap 4 -->
+    <script src="~/AdminTemplate/plugins/bootstrap/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <!-- AdminLTE App -->
+    <script src="~/AdminTemplate/dist/js/adminlte.min.js" asp-append-version="true"></script>
+</body>
+</html>
